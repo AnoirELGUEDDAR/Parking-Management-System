@@ -14,22 +14,22 @@ mysql-connector-python: This library is used to connect Python to MySQL. Install
 # **Database Setup**
 Create Database: In your MySQL server, create a database named parking.
 Create Tables: Execute the following SQL commands in your MySQL client to create the necessary tables:<br>
-*CREATE TABLE parkmaster (
-    pid INT PRIMARY KEY,   -- Parking space ID (unique)
-    pnm VARCHAR(255),      -- Parking name (e.g., "North Lot")
-    level VARCHAR(255),    -- Level of the parking (e.g., "Ground", "1st Floor")
-    AVSPACE INT,           -- Available spaces in the parking lot
-    payment FLOAT          -- Total payments received for this lot
+*CREATE TABLE parkmaster ( <br>
+    pid INT PRIMARY KEY,   -- Parking space ID (unique)  <br>
+    pnm VARCHAR(255),      -- Parking name (e.g., "North Lot") <br>
+    level VARCHAR(255),    -- Level of the parking (e.g., "Ground", "1st Floor") <br>
+    AVSPACE INT,           -- Available spaces in the parking lot <br>
+    payment FLOAT          -- Total payments received for this lot <br>
 );*
 <br>
-*CREATE TABLE vehicle (
-    Vid INT PRIMARY KEY,    -- Vehicle ID (unique)
-    vnm VARCHAR(255),      -- Vehicle name/model
-    dateofpur DATE,        -- Purchase date of the vehicle
-    parkid INT,            -- Foreign key referencing parkmaster.pid
-    Period INT,            -- Number of days parked
-    pay FLOAT,             -- Payment for parking
-    FOREIGN KEY (parkid) REFERENCES parkmaster(pid)
+*CREATE TABLE vehicle ( <br>
+    Vid INT PRIMARY KEY,    -- Vehicle ID (unique) <br>
+    vnm VARCHAR(255),      -- Vehicle name/model <br>
+    dateofpur DATE,        -- Purchase date of the vehicle <br>
+    parkid INT,            -- Foreign key referencing parkmaster.pid <br>
+    Period INT,            -- Number of days parked <br>
+    pay FLOAT,             -- Payment for parking <br>
+    FOREIGN KEY (parkid) REFERENCES parkmaster(pid) <br>
 );*<br>
 # **Configuration**
 ### **Environment Variables:**
