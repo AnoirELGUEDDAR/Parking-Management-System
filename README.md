@@ -1,9 +1,11 @@
 # **Features**
 Add Parking Details: Easily add new parking spaces with their ID, name, level, and initial available space.
-View Parking Details: Search and view parking space details by ID, name, level, or see all available spaces at once.
+View Parking Details: Search and view parking space details by ID, name, level, o![Screenshot 2024-08-07 002730](https://github.com/user-attachments/assets/f6d8bdc9-ac76-4d5c-aeb4-948c4b9e4754)
+r see all available spaces at once.
 Add Cars to Parking: Assign vehicles to parking spaces, specifying their details and parking duration.
 Remove Vehicle Records: Clear out vehicle information from the system when they leave the parking lot.
-View Vehicle Details: Look up details of parked vehicles by their ID.
+View Vehicle Details: Look up details of parked vehicles by their ID.![Uploading Screenshot 2024-08-07 002730.png…]()
+
 # **Prerequisites**
 Python (3.x recommended): Make sure you have Python installed on your system. You can download it from https://www.python.org/downloads/.
 
