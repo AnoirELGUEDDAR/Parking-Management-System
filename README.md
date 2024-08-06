@@ -37,7 +37,7 @@ Create Tables: Execute the following SQL commands in your MySQL client to create
 Before running the application, set the following environment variable to your MySQL root password:
 
 Windows: set MYSQL_PASSWORD=your_password
-macOS/Linux: export MYSQL_PASSWORD=your_password
+macOS/Linux: export MYSQL_PASSWORD=your_password <br>
 **Replace:**
 
 Replace the host, user, and password parameters in the code with your specific MySQL credentials.
