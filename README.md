@@ -13,7 +13,7 @@ mysql-connector-python: This library is used to connect Python to MySQL. Install
 *pip install mysql-connector-python*
 # **Database Setup**
 Create Database: In your MySQL server, create a database named parking.
-Create Tables: Execute the following SQL commands in your MySQL client to create the necessary tables:
+Create Tables: Execute the following SQL commands in your MySQL client to create the necessary tables:<br>
 *CREATE TABLE parkmaster (
     pid INT PRIMARY KEY,   -- Parking space ID (unique)
     pnm VARCHAR(255),      -- Parking name (e.g., "North Lot")
@@ -21,7 +21,7 @@ Create Tables: Execute the following SQL commands in your MySQL client to create
     AVSPACE INT,           -- Available spaces in the parking lot
     payment FLOAT          -- Total payments received for this lot
 );*
-
+<br>
 *CREATE TABLE vehicle (
     Vid INT PRIMARY KEY,    -- Vehicle ID (unique)
     vnm VARCHAR(255),      -- Vehicle name/model
@@ -30,7 +30,7 @@ Create Tables: Execute the following SQL commands in your MySQL client to create
     Period INT,            -- Number of days parked
     pay FLOAT,             -- Payment for parking
     FOREIGN KEY (parkid) REFERENCES parkmaster(pid)
-);*
+);*<br>
 # **Configuration**
 ### **Environment Variables:**
 
