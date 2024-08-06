@@ -4,14 +4,14 @@ View Parking Details: Search and view parking space details by ID, name, level, 
 Add Cars to Parking: Assign vehicles to parking spaces, specifying their details and parking duration.
 Remove Vehicle Records: Clear out vehicle information from the system when they leave the parking lot.
 View Vehicle Details: Look up details of parked vehicles by their ID.
-#**Prerequisites**
+# **Prerequisites**
 Python (3.x recommended): Make sure you have Python installed on your system. You can download it from https://www.python.org/downloads/.
 
 MySQL Server: You'll need a MySQL database server up and running.  Instructions for installing and setting up MySQL can be found on their website: https://www.mysql.com/.
 
 mysql-connector-python: This library is used to connect Python to MySQL. Install it using pip:
 *pip install mysql-connector-python*
-#**Database Setup**
+# **Database Setup**
 Create Database: In your MySQL server, create a database named parking.
 Create Tables: Execute the following SQL commands in your MySQL client to create the necessary tables:
 *CREATE TABLE parkmaster (
@@ -31,8 +31,8 @@ Create Tables: Execute the following SQL commands in your MySQL client to create
     pay FLOAT,             -- Payment for parking
     FOREIGN KEY (parkid) REFERENCES parkmaster(pid)
 );*
-#**Configuration**
-###**Environment Variables:**
+# **Configuration**
+### **Environment Variables:**
 
 Before running the application, set the following environment variable to your MySQL root password:
 
@@ -41,7 +41,7 @@ macOS/Linux: export MYSQL_PASSWORD=your_password
 **Replace:**
 
 Replace the host, user, and password parameters in the code with your specific MySQL credentials.
-#**Running the Project**
+# **Running the Project**
 1-Make sure your MySQL server is running.
 2-Open your terminal or command prompt.
 3-Navigate to the project directory.
