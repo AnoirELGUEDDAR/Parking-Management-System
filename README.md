@@ -41,12 +41,12 @@ macOS/Linux: export MYSQL_PASSWORD=your_password <br>
 **Replace:**
 
 Replace the host, user, and password parameters in the code with your specific MySQL credentials.
-# **Running the Project**
-1-Make sure your MySQL server is running.
-2-Open your terminal or command prompt.
-3-Navigate to the project directory.
-4-Run the script:
-*python main.py*
+# **Running the Project** <br>
+1-Make sure your MySQL server is running.<br>
+2-Open your terminal or command prompt.<br>
+3-Navigate to the project directory.<br>
+4-Run the script:<br>
+*python main.py*<br>
 You'll be presented with the menu options to start managing your parking.
 
 
