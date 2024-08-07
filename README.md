@@ -43,8 +43,7 @@ Look up details of parked vehicles by their ID.<br><br>
 Before running the application, set the following environment variable to your MySQL root password:<br>
 **Windows:**  <br>set MYSQL_PASSWORD=your_password<br>
 **macOS/Linux:** <br>export MYSQL_PASSWORD=your_password <br>
-**Replace:**
-Replace the host, user, and password parameters in the code with your specific MySQL credentials.
+***Replace the host, user, and password parameters in the code with your specific MySQL credentials.***
 # **Running the Project** <br>
 1-Make sure your MySQL server is running.<br>
 2-Open your terminal or command prompt.<br>
