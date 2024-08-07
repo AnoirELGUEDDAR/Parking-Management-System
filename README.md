@@ -16,8 +16,10 @@ Look up details of parked vehicles by their ID.<br><br>
 **mysql-connector-python**:  <br>This library is used to connect Python to MySQL. Install it using pip:
 *pip install mysql-connector-python*
 # **Database Setup**
-## Create Database: <br> In your MySQL server, create a database named parking.
-## Create Tables:  <br> Execute the following SQL commands in your MySQL client to create the necessary tables:<br>
+## Create Database:
+<br> In your MySQL server, create a database named parking.
+## Create Tables:  
+<br> Execute the following SQL commands in your MySQL client to create the necessary tables:<br>
 *CREATE TABLE parkmaster ( <br>
     pid INT PRIMARY KEY,   -- Parking space ID (unique)  <br>
     pnm VARCHAR(255),      -- Parking name (e.g., "North Lot") <br>
