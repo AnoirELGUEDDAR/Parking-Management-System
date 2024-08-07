@@ -1,20 +1,18 @@
 # **Features**
-Add Parking Details: Easily add new parking spaces with their ID, name, level, and initial available space.
-View Parking Details: Search and view parking space details by ID, name, level, or see all available spaces at once.
-Add Cars to Parking: Assign vehicles to parking spaces, specifying their details and parking duration.
-Remove Vehicle Records: Clear out vehicle information from the system when they leave the parking lot.
-View Vehicle Details: Look up details of parked vehicles by their ID.<br><br>
+### Add Parking Details: Easily add new parking spaces with their ID, name, level, and initial available space.  <br>
+### View Parking Details: Search and view parking space details by ID, name, level, or see all available spaces at once. <br>
+### Add Cars to Parking: Assign vehicles to parking spaces, specifying their details and parking duration. <br>
+### Remove Vehicle Records: Clear out vehicle information from the system when they leave the parking lot. <br>
+### View Vehicle Details: Look up details of parked vehicles by their ID.<br><br>
                                ![Screenshot 2024-08-07 002730](https://github.com/user-attachments/assets/f6d8bdc9-ac76-4d5c-aeb4-948c4b9e4754)
 # **Prerequisites**
-Python (3.x recommended): Make sure you have Python installed on your system. You can download it from https://www.python.org/downloads/.
-
-MySQL Server: You'll need a MySQL database server up and running.  Instructions for installing and setting up MySQL can be found on their website: https://www.mysql.com/.
-
-mysql-connector-python: This library is used to connect Python to MySQL. Install it using pip:
+**Python (3.x recommended)**: <br> Make sure you have Python installed on your system. You can download it from https://www.python.org/downloads/.<br>
+**MySQL Server**: <br> You'll need a MySQL database server up and running.  Instructions for installing and setting up MySQL can be found on their website: https://www.mysql.com/.<br>
+**mysql-connector-python**:  <br>This library is used to connect Python to MySQL. Install it using pip:
 *pip install mysql-connector-python*
 # **Database Setup**
-Create Database: In your MySQL server, create a database named parking.
-Create Tables: Execute the following SQL commands in your MySQL client to create the necessary tables:<br>
+## Create Database: <br> In your MySQL server, create a database named parking.
+## Create Tables:  <br> Execute the following SQL commands in your MySQL client to create the necessary tables:<br>
 *CREATE TABLE parkmaster ( <br>
     pid INT PRIMARY KEY,   -- Parking space ID (unique)  <br>
     pnm VARCHAR(255),      -- Parking name (e.g., "North Lot") <br>
@@ -36,11 +34,9 @@ Create Tables: Execute the following SQL commands in your MySQL client to create
 ### **Environment Variables:**
 
 Before running the application, set the following environment variable to your MySQL root password:
-
-Windows: set MYSQL_PASSWORD=your_password
-macOS/Linux: export MYSQL_PASSWORD=your_password <br>
+**Windows:**  <br>set MYSQL_PASSWORD=your_password<br>
+**macOS/Linux:** export MYSQL_PASSWORD=your_password <br>
 **Replace:**
-
 Replace the host, user, and password parameters in the code with your specific MySQL credentials.
 # **Running the Project** <br>
 1-Make sure your MySQL server is running.<br>
