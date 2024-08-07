@@ -1,10 +1,15 @@
 # **Features**
-### Add Parking Details: Easily add new parking spaces with their ID, name, level, and initial available space.  <br>
-### View Parking Details: Search and view parking space details by ID, name, level, or see all available spaces at once. <br>
-### Add Cars to Parking: Assign vehicles to parking spaces, specifying their details and parking duration. <br>
-### Remove Vehicle Records: Clear out vehicle information from the system when they leave the parking lot. <br>
-### View Vehicle Details: Look up details of parked vehicles by their ID.<br><br>
-                               ![Screenshot 2024-08-07 002730](https://github.com/user-attachments/assets/f6d8bdc9-ac76-4d5c-aeb4-948c4b9e4754)
+### Add Parking Details:
+Easily add new parking spaces with their ID, name, level, and initial available space.  <br>
+### View Parking Details:
+Search and view parking space details by ID, name, level, or see all available spaces at once. <br>
+### Add Cars to Parking: 
+Assign vehicles to parking spaces, specifying their details and parking duration. <br>
+### Remove Vehicle Records: 
+Clear out vehicle information from the system when they leave the parking lot. <br>
+### View Vehicle Details: 
+Look up details of parked vehicles by their ID.<br><br>
+![Screenshot 2024-08-07 002730](https://github.com/user-attachments/assets/e70df3ea-9dac-41dd-a77a-35741ecd4f23)
 # **Prerequisites**
 **Python (3.x recommended)**: <br> Make sure you have Python installed on your system. You can download it from https://www.python.org/downloads/.<br>
 **MySQL Server**: <br> You'll need a MySQL database server up and running.  Instructions for installing and setting up MySQL can be found on their website: https://www.mysql.com/.<br>
